@@ -1,0 +1,59 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 0rem !important;
+}
+.test{
+  margin-top: 180px;
+}
+
+.dogo{
+margin-top: 40px;
+margin-bottom:15px;
+border-radius: 50%;
+height: 100px;
+}
+.peb{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.test_img{
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.img_s{
+  height:  30px;
+}
+.my-5 {
+  padding-top: 3rem !important;
+
+ margin-bottom: 0rem !important; 
+}
